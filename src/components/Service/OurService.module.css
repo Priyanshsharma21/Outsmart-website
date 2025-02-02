@@ -1,0 +1,110 @@
+.ourservice{
+    width: 100%;
+    height: 100vh;
+    background-color: #88B7BD;
+    overflow: hidden;
+}
+
+.ourVisionBox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.ourVisionHead{
+    line-height: 1em;
+    color: #FFF4B8;
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: "poppins", serif;
+}
+
+.ourVisionSubhead{
+    color: #FFF4B8;
+    font-size:1.2rem;
+    line-height: 1.2em;
+    font-weight:500;
+    font-family: "Poppins", serif;
+    margin-top: 1.2rem;
+}
+
+
+.navButtons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 999999999;
+
+  }
+  
+  .navButton {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+
+    border:2px solid #FFF4B8;
+    color: #FFF4B8;
+  }
+  
+  .navButton:hover {
+    background-color: #FFF4B8;
+    color: #88B7BD;
+  }
+  
+  .ourServiceRow{
+    border-left: 1px solid #FFF4B8;
+  }
+
+  .lootieStyle{
+    width: 500px;
+  }
+
+
+@media (max-width: 767px) {
+    .lootieStyle{
+        width: 250px;
+      }
+      .ourServiceRow{
+        height: auto;
+        flex-direction: column-reverse;
+      }
+
+      .ourVisionBox{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 5rem;
+      }
+
+      .ourVisionHead{
+        font-size: 2.2rem;
+    }
+    .ourServiceRow{
+        border: none;
+    }
+    .ourVisionSubhead{
+        color: #FFF4B8;
+        font-size:1.2rem;
+        line-height: 1.2em;
+        font-weight:500;
+        font-family: "Poppins", serif;
+        margin-top: 1.2rem;
+    }
+
+    .ourLootieBox{
+        margin-top: 2rem;
+    }
+    
+}

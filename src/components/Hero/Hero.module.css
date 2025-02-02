@@ -1,0 +1,141 @@
+.heroHeading{
+    font-size: 17vh;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+
+.heroImgBanner{
+    width: 100%;
+    height: 100%;
+}
+
+.heroImgBanner img{
+    border-radius: 4rem;
+    padding: 1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heroHeading{
+    font-size: 6.7vw;
+    font-weight: 600;
+    font-family: "Montserrat", serif;
+    text-align: center;
+}
+
+.heroSubHeading{
+    font-size: 2vw;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    color: #e2e2e2;
+    padding: 0rem 2em;
+    max-width: 700px;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+.heroCompanyName{
+    font-size: 16vw;
+    font-weight: 600;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.9em;
+    color:#ED9A34;
+}
+
+.heroContentBox{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.subHeadBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroJoinUs{
+    background:#ED9A34;
+    color: #e2e2e2;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0rem 1.3em;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.356);
+}
+
+.halflogo{
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+    .heroHeading{
+        font-size: 12.7vw;
+        font-weight: 400;
+        line-height: 1.1em;
+    }
+
+    .heroCompanyName{
+        font-size: 16vw;
+        font-weight: 600;
+        line-height: 1.5em;
+    }
+
+    .heroJoinUs{
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 8px;
+        width: 95%;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 0rem 1em;
+        margin-bottom: 0.5rem;
+    }
+
+    .subHeadBox{
+        flex-direction: column;
+        /* height: 70vh; */
+    }
+
+    .heroSubHeading{
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: #e2e2e2;
+        padding: 0rem 1em;
+        max-width: 700px;
+        line-height: 1.4em;
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+
+    .halflogo{
+        width:50px;
+        position: absolute;
+        top: 40px;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        display: block;
+    }
+}

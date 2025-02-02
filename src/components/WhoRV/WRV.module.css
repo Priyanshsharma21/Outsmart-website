@@ -1,0 +1,84 @@
+.wrvCover{
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+.wrvNum{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+.wrvTitle{
+    font-size: 1.2rem;
+    color: #d1d1d1;
+    font-weight: 400;
+}
+
+.wrvSubTitle{
+    font-size: 1.2rem;
+    color: #e2e2e2;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.heroJoinUs{
+    position: absolute;
+    bottom: 30px;
+    background: #50A7CD;
+    color: #ffffff;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 10px;
+    text-decoration: none;
+    left: 10px;
+}
+
+.heroJoinUs:hover{
+    color: #010B23;
+}
+
+
+.ourVisionHeading{
+    font-size:2.5rem;
+    font-weight: 600;
+    line-height: 1em;
+    color: #ffffffdc;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .wvrLeft{
+        flex-direction: column;
+    }
+    .wrvMain{
+        height: 100%;
+    }
+    
+    .wrvTitle{
+        color: white;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+
+    .wrvSubTitle{
+        margin-top: 0.5rem;
+    }
+
+    .heroJoinUs{
+        width: 95%;
+    }
+}
+
