@@ -35,3 +35,56 @@ export const whoAreWeData =  [
         subtitle: "Manage lead generation and outreach activities, ensuring qualified leads and impactful introductory calls."
     }
 ];
+
+
+export const approachData = [
+    {
+      id: 1,
+      title: "Regular Progress Updates",
+      description: "We provide weekly reports to keep you informed of activities and progress.",
+      lottieImg: s4,
+    },
+    {
+      id: 2,
+      title: "Access to Tools and Data",
+      description: "We ensure full transparency with tools, databases, and communications.",
+      lottieImg: s4,
+    },
+    {
+      id: 3,
+      title: "Monthly Check-Ins",
+      description: "We conduct monthly meetings to review progress and address concerns.",
+      lottieImg: s2,
+    },
+    {
+      id: 4,
+      title: "Dedicated Team Oversight",
+      description: "We oversee your sales team with weekly performance reviews.",
+      lottieImg: s3,
+    },
+    {
+      id: 5,
+      title: "Strategic Planning",
+      description: "We develop quarterly plans with goal updates and adjustments.",
+      lottieImg: s2,
+    },
+    {
+      id: 6,
+      title: "Ethical Conduct",
+      description: "We protect your brand’s reputation with integrity-driven actions.",
+      lottieImg: s2,
+    },
+    {
+      id: 7,
+      title: "Transparent Communication",
+      description: "All communications are reviewed and approved to align with your brand.",
+      lottieImg: s1,
+    },
+    {
+      id: 8,
+      title: "Collaborative Partnerships",
+      description: "We work closely with your team to ensure seamless integration.",
+      lottieImg: s2,
+    },
+  ];
+  

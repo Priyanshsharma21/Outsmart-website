@@ -1,0 +1,18 @@
+.ourClient{
+    background-color : #FBF4D7;
+}
+
+.ourClientTitle{
+    color: #2E2111;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: "Montserrat", serif;
+    line-height: 1em;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.ourClientWall{
+    position: absolute;
+    bottom: 2rem;
+}
